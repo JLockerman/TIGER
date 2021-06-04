@@ -1,13 +1,15 @@
-# Timescale Analytics #
+# Timescale TIGER #
 
-This repository is the home of the Timescale Analytics team. Our mission is to
-ease all things analytics when using TimescaleDB, with a particular focus on
+**TimescaleDB Investigation and Graphing Extension in Rust**
+
+This repository is the home of the Timescale TIGER team. Our mission is to
+create Power functions for TimescaleDB, with a particular focus on
 developer ergonomics and performance. Our issue tracker contains more
 on [the features we're planning to work on](https://github.com/timescale/timescale-analytics/labels/proposed-feature)
 and [the problems we're trying to solve](https://github.com/timescale/timescale-analytics/labels/feature-request),
 and our [Discussions forum](https://github.com/timescale/timescale-analytics/discussions) contains ongoing conversation.
 
-Documentation for this version of the Timescale Analytics extension can be found
+Documentation for this version of the Timescale TIGER extension can be found
 in this repository at [`docs`](https://github.com/timescale/timescale-analytics/tree/main/docs).
 
 
@@ -41,18 +43,18 @@ cargo install --git https://github.com/JLockerman/pgx.git --branch timescale car
 
 ### 💾 Building and Installing the extension ###
 
-Download or clone this repository, and switch to the `extension` subdirectory, e.g. 
+Download or clone this repository, and switch to the `extension` subdirectory, e.g.
 ```bash
 git clone https://github.com/timescale/timescale-analytics && cd timescale-analytics/extension
 ```
-Then run 
+Then run
 ```
 cargo pgx install --release
 ```
 
 ## ✏️ Get Involved ##
 
-The Timescale Analytics project is still in the initial planning stage as we
+The Timescale TIGER project is still in the initial planning stage as we
 decide our priorities and what to implement first. As such, now is a great time
 to help shape the project's direction! Have a look at the
 [list of features we're thinking of working on](https://github.com/timescale/timescale-analytics/labels/proposed-feature)
@@ -104,4 +106,4 @@ time, roles and permissions, and security.
 
 TimescaleDB has a **large and active user community** (tens of millions
 of downloads, hundreds of thousands of active deployments, Slack channel
-with thousands of members).  
+with thousands of members).
